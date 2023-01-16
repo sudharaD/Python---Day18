@@ -55,8 +55,13 @@ from turtle import *
 
 # spot painting challenge
 import hairst_spot_painting as hsp
+import turtle as t
 
 challenge = hsp.SpotPainting()
+challenge.spot_painting(20, 10, 10, 50)
+
+screen = t.Screen()
+screen.exitonclick()
 
 
 
