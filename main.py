@@ -44,14 +44,20 @@ from turtle import *
 # screen.exitonclick()
 
 # Challenge 5
-from Turtle_Challenge_5 import Challenge5
+# from Turtle_Challenge_5 import Challenge5
+#
+# challenge_5 = Challenge5()
+#
+# challenge_5.spirograph(100, 100)
+#
+# screen = Screen()
+# screen.exitonclick()
 
-challenge_5 = Challenge5()
+# spot painting challenge
+import hairst_spot_painting as hsp
 
-challenge_5.spirograph(100, 100)
+challenge = hsp.SpotPainting()
 
-screen = Screen()
-screen.exitonclick()
 
 
 

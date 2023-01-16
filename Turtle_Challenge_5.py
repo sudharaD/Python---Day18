@@ -16,11 +16,9 @@ class Challenge5:
         return random_color_tuple
 
     def spirograph(self, number_of_loops, radius):
-        angle = 360 / number_of_loops
         for _ in range(number_of_loops):
             self.tory_the_turtle.pencolor(self.random_color())
             self.tory_the_turtle.circle(radius)
-            self.tory_the_turtle.right(angle)
+            self.tory_the_turtle.setheading(self.tory_the_turtle.heading() + (360 / number_of_loops))
 
-
-
+#             Can use current_heading() and set_heading() methods to change the headings
