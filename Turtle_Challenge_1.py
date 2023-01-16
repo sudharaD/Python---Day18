@@ -1,8 +1,8 @@
 class Challenge1:
 
-    from turtle import Turtle, Screen
+    from turtle import Turtle as t
 
-    lenny_the_turtle = Turtle()
+    lenny_the_turtle = t()
     lenny_the_turtle.shape("turtle")
     lenny_the_turtle.color("red", "green")
 
