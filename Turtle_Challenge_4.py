@@ -4,6 +4,7 @@ class Challenge4:
 
     timothy_the_turtle = t.Turtle()
     timothy_the_turtle.shape("turtle")
+    timothy_the_turtle.speed("fastest")
     timothy_the_turtle.pensize(5)
     color_list = ["deep sky blue", "spring green", "yellow", "red", "magenta", "black"]
     angles = [0, 90, 180, 270]

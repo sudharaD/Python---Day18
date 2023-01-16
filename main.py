@@ -36,10 +36,10 @@ from turtle import *
 # Challenge 4
 from Turtle_Challenge_4 import Challenge4
 
-SHOULD_CONTINUE = True
-
 challenge_4 = Challenge4()
 
-while SHOULD_CONTINUE:
-    challenge_4.random_walk(50, 200)
+challenge_4.random_walk(50, 200)
+
+screen = Screen()
+screen.exitonclick()
 
