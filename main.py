@@ -34,12 +34,24 @@ from turtle import *
 # screen.exitonclick()
 
 # Challenge 4
-from Turtle_Challenge_4 import Challenge4
+# from Turtle_Challenge_4 import Challenge4
+#
+# challenge_4 = Challenge4()
+#
+# challenge_4.random_walk(50, 200)
+#
+# screen = Screen()
+# screen.exitonclick()
 
-challenge_4 = Challenge4()
+# Challenge 5
+from Turtle_Challenge_5 import Challenge5
 
-challenge_4.random_walk(50, 200)
+challenge_5 = Challenge5()
+
+challenge_5.spirograph(100, 100)
 
 screen = Screen()
 screen.exitonclick()
+
+
 
